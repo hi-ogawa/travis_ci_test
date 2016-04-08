@@ -2,6 +2,10 @@ language: ruby
 rvm:
   - 2.1.2
 
+branch:
+  only:
+    - master
+
 cache: bundler
 install: bundle install --jobs=3 --retry=3
 
